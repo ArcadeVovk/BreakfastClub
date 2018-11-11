@@ -2,6 +2,49 @@
 	width: 175px;
 }
 
+body {
+	width: 99%;
+	box-sizing: border-box;
+}
+
 main {
 	display: flex;
+	box-sizing: border-box;
+	width: 100%;
+	overflow: hidden;
+	flex-wrap: wrap;
+}
+
+.wallpaper {
+
+	box-sizing: border-box;
+	position: relative;
+	/*overflow: hidden;*/
+	width: 100%;
+	}
+
+.wall_img {
+	display: block;
+	box-sizing: border-box;
+	height: auto;
+	width: 100%;
+	height: auto;
+
+}
+
+.heading_box {
+	position: absolute;
+	box-sizing: border-box;
+	bottom: 10%;
+	left: 10%;
+	color: white;
+	font-size: 2vw;
+	font-family: helvetica;
+
+
+}
+
+.description {
+	position: relative;
+
 }
